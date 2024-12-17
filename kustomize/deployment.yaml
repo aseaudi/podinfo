@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: ${IMAGE}
+        image: ${IMAGE2}
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
